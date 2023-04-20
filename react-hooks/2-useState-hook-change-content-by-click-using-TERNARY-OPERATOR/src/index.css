@@ -1,0 +1,51 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vh;
+  background-color: #34495e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: aliceblue;
+
+}
+
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #8be3fb;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+.btn {
+  margin: auto;
+  margin-top: 2rem;
+  border: none;
+  outline: none;
+  padding: 0.5rem 1.5rem;
+  background-color: #2980b9;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+.btn:hover {
+  background-color: #136ca7;
+}

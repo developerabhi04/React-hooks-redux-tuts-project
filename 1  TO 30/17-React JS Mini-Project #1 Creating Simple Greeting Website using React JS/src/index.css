@@ -1,0 +1,43 @@
+/* @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Condensed:wght@700&display=swap'); */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+} */
+
+body{
+    background-color: #b4f2e1;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* .heading{
+    color: #fa9191;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-shadow: 0px 2px 4px #ffe9c5;
+    margin: 30px 0;
+} */
+
+div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    
+}
+
+h1 {
+    background-color: #ffe9c5;
+    padding: 20px 20px;
+    color: #fa9191;
+}
+
+span {
+    color: #eb6383;
+}

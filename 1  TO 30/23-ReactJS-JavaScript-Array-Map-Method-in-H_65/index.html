@@ -1,0 +1,65 @@
+<!-- The map() method create a new array with the results of calling a
+function for every array element.
+
+The map() method calls the provided function once for each element
+in an array, in order.
+
+syntax
+array.map(function(currentvalue, index, arr), thisValue)
+
+Argument                Descriptions
+currentvalue            Required. the value of the current element
+index optional.         the array index of the current element
+arr optional.           the array object the current element belongs to.
+
+
+ -->
+
+
+
+<!-- <script>
+
+const oldarr = ["abhishek","karan","kumar" ];
+
+console.log(oldarr[0]);
+console.log(oldarr[1]);
+console.log(oldarr[2]);
+
+const newarr = oldarr.map(function(currentvalue, index) {
+    return index + " : " + currentvalue + " jain ";
+})
+
+console.log(newarr);
+
+</script> -->
+
+<!-- advanced -->
+
+<p id = "show"></p>
+
+<script>
+
+        const studentData = [
+            { id: 1, name: "abhishek", degree: "Btech" },
+            { id: 2, name: "karan", degree: "Mtech" },
+            { id: 3, name: "salim", degree: "Mca" },
+            { id: 1, name: "abhishek", degree: "Btech" },
+            { id: 2, name: "karan", degree: "Mtech" },
+            { id: 3, name: "salim", degree: "Mca" },
+            { id: 1, name: "abhishek", degree: "Btech" },
+            { id: 2, name: "karan", degree: "Mtech" },
+            { id: 3, name: "salim", degree: "Mca" }
+        ];
+            // console.log(studentData[2].name);
+
+        const newData = studentData.map((currentvalue) => {
+            return `my name is ${currentvalue.name}. my highest degree is ${currentvalue.degree}`;
+        });
+
+        console.log(newData);
+
+        document.getElementById("show").innerHTML = newData; 
+
+
+
+</script>

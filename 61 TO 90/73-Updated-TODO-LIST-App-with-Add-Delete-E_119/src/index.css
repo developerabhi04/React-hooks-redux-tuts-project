@@ -1,0 +1,75 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main-div {
+  min-height: 100vh;
+  background: #060822;
+  display: flex;
+  justify-content: center;
+}
+
+.child-div {
+  text-align: center;
+  margin-top: 12rem;
+}
+
+.child-div figure img {
+  width: 10rem;
+  height: 8rem;
+}
+
+.child-div figure figcaption {
+  color: #fff;
+  font-size: 2.2rem;
+  padding-top: 2rem;
+  text-transform: capitalize;
+}
+
+input {
+  min-width: 40rem;
+  height: 3.4rem;
+  padding: 2rem 1.2rem;
+  font-size: 1.8rem;
+  line-height: 1.42857143;
+  margin-top: 2rem;
+  color: rgb(58, 57, 57);
+  background-color: #fff;
+  background-image: none;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.4rem;
+  -webkit-box-shadow:inset 0 0.1rem 0.1rem rgb(0 0 0 / 8%);
+  box-shadow: inset 0 0.1rem 0.1rem rgb(0 0 0 / 80%);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+ i.fa-solid.fa-plus {
+    font-size: 45px !important;
+    font-weight: 900;
+    color: #f4b400;
+    cursor: pointer;
+    z-index: 222;
+    background: transparent;
+}
+
+i.fa-solid.fa-plus:hover  {
+  color: #fff;
+  background: transparent;
+}
+
+
+h3 {
+  font-size: 40px;
+  color: #191313;
+  background-color: white;
+  
+}
